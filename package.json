@@ -1,11 +1,31 @@
 {
   "name": "json-schema-mockify",
   "version": "0.0.1",
-  "description": "",
+  "author": {
+    "name": "Masayuki IZUMI",
+    "email": "masayuki@izumin.info",
+    "url": "https://github.com/izumin5210"
+  },
+  "bugs": "https://github.com/izumin5210/json-schema-parser/issues",
+  "files": [
+    "README.md",
+    "index.js",
+    "package.json",
+    "lib",
+    "spec"
+  ],
+  "homepage": "https://github.com/izumin5210/json-schema-parser",
+  "keywords": [
+    "json-schema",
+    "jsonschema",
+    "mock"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://izumin.mit-license.org/2015"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
