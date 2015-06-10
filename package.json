@@ -18,6 +18,9 @@
     "mocha": "^2.2.5",
     "power-assert": "^0.11.0"
   },
+  "directories": {
+    "test": "spec/"
+  },
   "files": [
     "README.md",
     "index.js",
@@ -41,6 +44,7 @@
     "url": "https://github.com/izumin5210/json-schema-mockify.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib",
+    "test": "mocha --compilers js:espower-babel/guess spec/**/*_spec.js"
   }
 }
