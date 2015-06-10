@@ -1,7 +1,7 @@
 {
   "name": "json-schema-mockifier",
   "description": "Generate mock object from JSON Schema",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "Masayuki IZUMI",
     "email": "masayuki@izumin.info",
