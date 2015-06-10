@@ -1,12 +1,13 @@
 {
   "name": "json-schema-mockify",
+  "description": "Generate mock object from JSON Schema",
   "version": "0.0.1",
   "author": {
     "name": "Masayuki IZUMI",
     "email": "masayuki@izumin.info",
     "url": "https://github.com/izumin5210"
   },
-  "bugs": "https://github.com/izumin5210/json-schema-parser/issues",
+  "bugs": "https://github.com/izumin5210/json-schema-mockify/issues",
   "devDependencies": {
     "babel": "^5.5.6",
     "espower-babel": "^3.2.0",
@@ -20,7 +21,7 @@
     "lib",
     "spec"
   ],
-  "homepage": "https://github.com/izumin5210/json-schema-parser",
+  "homepage": "https://github.com/izumin5210/json-schema-mockify",
   "keywords": [
     "json-schema",
     "jsonschema",
@@ -31,6 +32,10 @@
     "url": "http://izumin.mit-license.org/2015"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izumin5210/json-schema-mockify.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
