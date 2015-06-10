@@ -1,5 +1,6 @@
 # JsonSchemaMockifier
 [![Build Status](https://travis-ci.org/izumin5210/json-schema-mockifier.svg)](https://travis-ci.org/izumin5210/json-schema-mockifier)
+[![npm version](https://badge.fury.io/js/json-schema-mockifier.svg)](http://badge.fury.io/js/json-schema-mockifier)
 
 Generate mock object from JSON Schema ([HyperSchema v4](http://json-schema.org/latest/json-schema-hypermedia.html)).
 
