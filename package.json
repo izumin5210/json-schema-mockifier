@@ -1,5 +1,5 @@
 {
-  "name": "json-schema-mockify",
+  "name": "json-schema-mockifier",
   "description": "Generate mock object from JSON Schema",
   "version": "0.0.1",
   "author": {
@@ -7,7 +7,7 @@
     "email": "masayuki@izumin.info",
     "url": "https://github.com/izumin5210"
   },
-  "bugs": "https://github.com/izumin5210/json-schema-mockify/issues",
+  "bugs": "https://github.com/izumin5210/json-schema-mockifier/issues",
   "dependencies": {
     "json-pointer": "^0.3.0",
     "json-schema-parser": "^0.1.0"
@@ -28,7 +28,7 @@
     "lib",
     "spec"
   ],
-  "homepage": "https://github.com/izumin5210/json-schema-mockify",
+  "homepage": "https://github.com/izumin5210/json-schema-mockifier",
   "keywords": [
     "json-schema",
     "jsonschema",
@@ -41,7 +41,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/izumin5210/json-schema-mockify.git"
+    "url": "https://github.com/izumin5210/json-schema-mockifier.git"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
