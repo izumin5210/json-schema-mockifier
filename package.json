@@ -7,6 +7,12 @@
     "url": "https://github.com/izumin5210"
   },
   "bugs": "https://github.com/izumin5210/json-schema-parser/issues",
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "espower-babel": "^3.2.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0"
+  },
   "files": [
     "README.md",
     "index.js",
