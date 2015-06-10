@@ -27,6 +27,7 @@
     "README.md",
     "index.js",
     "package.json",
+    "build",
     "lib",
     "spec"
   ],
@@ -46,7 +47,8 @@
     "url": "https://github.com/izumin5210/json-schema-mockifier.git"
   },
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build:bower": "browserify src/mockifier.js -o build/mockifier.js -t [ babelify ] -s JsonSchemaMockifier --modules commonjs",
+    "build:npm": "babel src --out-dir lib",
     "test": "mocha --compilers js:espower-babel/guess spec/**/*_spec.js"
   }
 }
